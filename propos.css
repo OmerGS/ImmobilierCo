@@ -1,0 +1,50 @@
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
+    font-family: Nunito;
+}
+
+
+.titre {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+
+.gif {
+    
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+    visibility: visible;
+}
+
+.gif:hover {
+    visibility: hidden;
+}
+
+.Slogan {
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background: red;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, purple, pink);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, darkgoldenrod, darkgrey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+
+
+.retour {
+    position: absolute;
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+   
+}

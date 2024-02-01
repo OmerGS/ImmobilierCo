@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+body {
+  background: #f2f2ff;
+  font-family: raleway;
+  color: #999;
+  margin: 0;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100wh;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+.wrapper > h4 {
+  position: relative;
+  z-index: 5;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  width: 400px;
+  border-radius: 15px;
+background: #f2f2ff;
+box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.07), 
+             -10px -10px 20px rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+
+.container::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  display: block;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+background: #f2f2ff;
+box-shadow: inset 2px 2px 11px #e5e5e5, 
+            inset -5px -5px 11px #ffffff;
+  z-index: 1;
+  top: calc(50% - 25px);
+  left: calc(50% - 170px);
+  transition: all 0.4s cubic-bezier(1, 0.04, 0.66, 1.23);
+}
+
+.cash-selected {
+  animation: pressed-left 0.4s cubic-bezier(1, 0.04, 0.66, 1.23);
+} 
+
+.card-selected {
+  animation: pressed-right 0.4s cubic-bezier(1, 0.04, 0.66, 1.23);
+}
+
+.cash-selected::after {
+  left: calc(50% - 170px);
+}
+
+.card-selected::after {
+  left: calc(50% - 0px);
+}
+
+label {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+/*   border: 1px solid red; */
+  width: 50%;
+  cursor: pointer;
+  height: 100%;
+  z-index: 2;
+}
+
+/* label::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  display: none;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+background: #f2f2ff;
+box-shadow: inset 2px 2px 11px #e5e5e5, 
+            inset -5px -5px 11px #ffffff;
+  z-index: 1;
+  top: calc(50% - 25px);
+  left: calc(50% - 85px);
+} */
+
+span {
+  position: relative;
+  z-index: 2;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  color: #2180e1;
+}
+
+input:checked + label::after {
+  display: block;
+}
+
+@keyframes pressed-left {
+  0% {
+    transform: scale(1, 1);
+  } 
+  50% {
+    transform: scale(0.98, 0.98);
+  } 
+  100% {
+    transform: scale(1, 1);
+  } 
+}
+
+@keyframes pressed-right {
+  0% {
+    transform: scale(1, 1);
+  } 
+  50% {
+    transform: scale(0.98, 0.98);
+  } 
+  100% {
+    transform: scale(1, 1);
+  } 
+}
+
+.liencb {
+    text-decoration: none;
+    color: black;
+}
+
+.retour {
+    position: absolute;
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+   
+}
+
+.payement {
+  color:black;
+  font-size: 40px;
+}
+
+

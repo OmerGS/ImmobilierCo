@@ -1,0 +1,29 @@
+body {
+    font-family: Nunito;
+    background: #9900ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4d0b0b, #430070);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc400, #92bcf3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+
+
+.text {
+    position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  font-size: 17px;
+}
+
+.text2 {
+    position: absolute; /* postulat de départ */
+  top: 55%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  font-size: 25px;
+}
+
+.retour {
+    position: absolute;
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+   
+}

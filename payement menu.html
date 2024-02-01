@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="64x64" href="Images/Logo.jpg">
+    <link rel="stylesheet" type="text/css" href="payement menu.css">
+    <script src="payement menu.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <title>Immobilier Co - Menu de paiemenent</title>
+</head>
+<body>
+
+    
+
+    <a href="Page d'acceuil.html"><img src="Images/return.png" class="retour"></a>
+    
+
+    <div class="wrapper">
+        <h4 class="flex-grow mb-4">Selectionnez votre mode de paiement</h4>
+      <div class="container flex-grow">
+          <input type="radio" id="cash" value="cash" name="payement-mode" onchange="setPaymentMode('cash')" checked />
+        <label for="cash">
+            <span>
+              <a href="payement cb.html" class="liencb"><i class="fa fa-money-bill mr-1"></i>Carte Bancaire</span></a>
+        </label>
+        
+          <input type="radio" name="payement-mode" id="card" value="card"onchange="setPaymentMode('card')"  />
+        <label for="card">
+          <span>
+            <a href="https://www.paypal.com/signin?country.x=FR&locale.x=fr_FR" class="liencb"><i class="fa fa-money-check mr-1"></i>Paypal</span></a>
+        </label>
+      </div>
+        </div>
+    
+</body>
+</html>

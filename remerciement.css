@@ -1,0 +1,66 @@
+body {
+    background: #9900ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4d0b0b, #430070);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #da0000, goldenrod); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    font-family: Nunito;
+}
+
+
+.Titre {
+    color: White;
+    text-align:center;
+    margin-top:100px;
+    font-size:60px;
+    transition: 1000ms;
+}
+
+.Titre:hover {
+  color: black;
+  background-color: blanchedalmond;
+  transition: 1000ms;
+  text-decoration:underline;
+}
+
+.micode {
+  color:black;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+.micode:hover {
+  background-color: blanchedalmond;
+  text-decoration: underline;
+  transform : rotate(20deg);
+  transition: 500ms;
+}
+
+.Présentation{
+    color: white;
+    text-align:left;
+    margin-top:100px;
+    font-size:40px;
+    transition: 500ms;
+}
+
+.Présentation:hover {
+  color: black;
+  background-color: blanchedalmond;
+  text-decoration: underline;
+  transition: 500ms;
+}
+
+.video {
+  margin-left: 450px;
+  padding-top: 10px;
+}
+
+.retour {
+  position: absolute;
+  width: 50px;
+  margin-left: 25px;
+  margin-top: 20px;
+ 
+}

@@ -1,0 +1,20 @@
+.contenu {
+    padding-left: 40%;
+    padding-right: auto;
+}
+
+body {
+    background: #9900ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4d0b0b, #430070);  /* Chrome 10-25, Safari 5.1-6 */
+    color: whitesmoke;
+    background: linear-gradient(to right, #b86c6c, #496fa1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    
+}
+
+.retour {
+    position: absolute;
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+   
+}

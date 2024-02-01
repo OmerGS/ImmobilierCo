@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="64x64" href="Images/Logo.jpg">
+    <link rel="stylesheet" type="text/css" href="telechargement.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <title>Immobilier CO</title>
+</head>
+<body>
+    <section class="css-selector">
+    <div class="header">
+        <div class="container">
+            <div class="header_navbar">
+                <div class="header_navbar-logo">
+                    <a href="Page d'acceuil.html"><img src="Images/logo.jpg" class="header__navbar-logo-title" width="50px"></a>
+                </div>
+                <div class="header_navbar-menu">
+                    <a href="nouveaupdg.html" class="header__navbar--menu-link">Actualités</a>
+                    <a href="dpe.html" class="header__navbar--menu-link">Test DPE</a>
+                    <a href="propos.html" class="header__navbar--menu-link">A propos de nous</a>
+                    <a href="Contact.html" class="header__navbar--menu-link">Nous contactez</a>
+                    <a href="payement menu navbar.html" class="header__navbar--menu-link">Faites des dons</a>
+                    <a href="remerciement.html" class="header__navbar--menu-link">Remerciements</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <style>
+        .background--custom {
+          background-color: #FF0000;
+          width: 100vw;
+          height: 100vh;
+          position: absolute;
+          overflow: hidden;
+          z-index: -2;
+          top: 0;
+          left: 0;
+        }
+        canvas#canvas {
+          z-index: -1;
+          position: absolute;
+          width: 100%;
+          height: 60%;
+          transform: rotate(8deg) scale(2) translateY(0%);
+          --gradient-color-1: #b52d5b; 
+          --gradient-color-2: #9905af; 
+          --gradient-color-3: #0c5dfe;  
+          --gradient-color-4: #7c6733;
+          --gradient-speed: 0.000012;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="background--custom">
+        <canvas id="canvas">
+      </div>
+      <script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+      <script>
+      var gradient = new Gradient();
+      gradient.initGradient("#canvas");
+      </script>
+
+    <table>
+        <tr class="ligne1">
+            <th class="proprio"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <circle cx="12" cy="12" r="9" /> <circle cx="12" cy="10" r="3" /> <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" /> </svg></th>
+            <th class="taille"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <circle cx="8.5" cy="8.5" r="1" fill="currentColor" /> <path d="M4 7v3.859c0 .537 .213 1.052 .593 1.432l8.116 8.116a2.025 2.025 0 0 0 2.864 0l4.834 -4.834a2.025 2.025 0 0 0 0 -2.864l-8.117 -8.116a2.025 2.025 0 0 0 -1.431 -.593h-3.859a3 3 0 0 0 -3 3z" /> </svg></th>
+            <th class="tele"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cloud-download" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M19 18a3.5 3.5 0 0 0 0 -7h-1a5 4.5 0 0 0 -11 -2a4.6 4.4 0 0 0 -2.1 8.4" /> <line x1="12" y1="13" x2="12" y2="22" /> <polyline points="9 19 12 22 15 19" /> </svg></a> </th>
+        </tr>
+     
+        <tr class="ligne2">
+            <td class="aniki">Aniki</td>
+            <td>...</td>
+            <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /> <polyline points="7 11 12 16 17 11" /> <line x1="12" y1="4" x2="12" y2="16" /> </svg></a></td>
+        </tr>
+        <tr class="ligne3">
+            <td class="mathys">Mathys</td>
+            <td>...</td>
+            <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /> <polyline points="7 11 12 16 17 11" /> <line x1="12" y1="4" x2="12" y2="16" /> </svg></a></td>
+        </tr>
+        <tr class="ligne4">
+            <td class="pierre">Pierre</td>
+            <td>...</td>
+            <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /> <polyline points="7 11 12 16 17 11" /> <line x1="12" y1="4" x2="12" y2="16" /> </svg></a></td>
+        </tr>
+        <tr class="ligne5">
+            <td class="maxence">Maxence</td>
+            <td>...</td>
+            <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /> <polyline points="7 11 12 16 17 11" /> <line x1="12" y1="4" x2="12" y2="16" /> </svg></a></td>
+        </tr>
+        <tr class="ligne6">
+            <td class="omer">Omer</td>
+            <td>...</td>
+            <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /> <polyline points="7 11 12 16 17 11" /> <line x1="12" y1="4" x2="12" y2="16" /> </svg></a></td>
+        </tr>
+        <tr class="ligne7">
+            <td>..</td>
+            <td>..</td>
+            <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /> <polyline points="7 11 12 16 17 11" /> <line x1="12" y1="4" x2="12" y2="16" /> </svg></a></td>
+        </tr>
+     </table>
+
+    </section>
+</body>
+</html>

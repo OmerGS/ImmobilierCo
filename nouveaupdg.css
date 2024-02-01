@@ -1,0 +1,94 @@
+@media only screen and (min-width: 1423px) {
+    .header__navbar--menu-link{
+        margin-left: 700px;
+        color: white;
+        margin-top: -10px;
+        text-decoration: none;
+        font-family: Nunito;
+}
+}
+
+body  {
+    font-family: Nunito;
+    background: #9900ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4d0b0b, #430070);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff8f8f, rgb(255, 207, 84)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header{
+    height: 100px;
+    width: auto;
+    background-color: none;
+   /* border: 5px solid black; */
+    background-size: 100%;
+    position: fixed;
+}
+
+.header_navbar{
+    display:flex;
+    position: static;
+    width: 130%;
+    height: 50px;
+    align-items: center;
+    margin-top: -10px;
+    background-color: black  ;
+    margin-left: -50px;
+    
+}
+
+.container {
+    width: 90%;
+    margin-left: 40px;
+    position: fixed;
+}
+
+.header__navbar-logo-title{
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+
+.header__navbar--menu-link{
+    margin-left: 110px;
+    color: white;
+    margin-top: -10px;
+    text-decoration: none;
+    font-family: Nunito;
+    transition: 500ms;
+}
+
+.header__navbar--menu-link:hover{
+    
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 500ms;
+}
+
+.elon {
+    width: 600px;
+    padding-top: 4%;
+    padding-left: 34%;
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    padding-left: 4%;
+}
+
+.text {
+    padding-left: 20%;
+    padding-right:20% ;
+    padding-top:4% ;
+}
+
+.tweet {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
+}
