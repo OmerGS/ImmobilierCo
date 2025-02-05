@@ -15,7 +15,7 @@ This project was created as part of my high school. The initial goal was to deve
 
 1. Clone the repository:
    ```bash
-   git clone <repository_URL>
+   git clone https://github.com/OmerGS/ImmobilierCo.git
 
 2. Launch 'Page d'acceuil.html'
 ## Tech Stack
